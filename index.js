@@ -30,8 +30,8 @@ app.use(express.urlencoded({ extended: true }));
 const corsOptions = {
     origin: [
         'http://localhost:3000',
-        'http://ec2-13-59-63-201.us-east-2.compute.amazonaws.com/b4',
-        'http://zuitt-bootcamp-prod-461-8017-lanuza.s3-website.us-east-1.amazonaws.com'
+        'https://csp2-ecommerceapi.onrender.com',
+        'http://csp3-e-commerce-client.vercel.app'
     ],
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH'],
     allowedHeaders: ['Content-Type', 'Authorization'],
