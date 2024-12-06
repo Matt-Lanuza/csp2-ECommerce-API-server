@@ -31,7 +31,7 @@ const corsOptions = {
     origin: [
         'http://localhost:3000',
         'https://csp2-ecommerceapi.onrender.com',
-        'http://csp3-e-commerce-client.vercel.app'
+        'http://csp3-e-commerce-client-ni3s.vercel.app'
     ],
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH'],
     allowedHeaders: ['Content-Type', 'Authorization'],
