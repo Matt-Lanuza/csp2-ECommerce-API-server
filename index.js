@@ -30,7 +30,7 @@ app.use(express.urlencoded({ extended: true }));
 const corsOptions = {
     origin: [
         'http://localhost:3000',
-        'https://csp2-ecommerceapi.onrender.com',
+        'https://csp2-ecommerce-api-server.onrender.com',
         'http://csp3-e-commerce-client-ni3s.vercel.app'
     ],
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH'],
