@@ -53,10 +53,10 @@ mongoose.connection.once('open',()=>console.log("Now connected to MongoDB Atlas"
 
 //[Backend Routes]
 //http://localhost:4000/users
-app.use("/b4/users", userRoutes);
-app.use("/b4/products", productRoutes);
-app.use("/b4/cart", cartRoutes);
-app.use("/b4/orders", orderRoutes);
+app.use("/users", userRoutes);
+app.use("/products", productRoutes);
+app.use("/cart", cartRoutes);
+app.use("/orders", orderRoutes);
 
 //[Server Gateway Response]
 // if(require.main) would allow us to listen to the app directly if it is not imported to another module, it will run the app directly.
